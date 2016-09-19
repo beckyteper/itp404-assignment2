@@ -22,7 +22,7 @@ console.log(pluralize('baby'));
 function Book({title, quantity, price }) {
   this.title = title;
   this.quantity = quantity;
-  this. price = price;
+  this.price = price;
 }
 
 Book.prototype.getSubtotal = function() {
